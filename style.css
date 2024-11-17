@@ -303,7 +303,7 @@ section.active {
   display: block;
   width: 85%;
   object-fit: cover;
-  mix-blend-mode: lighten;
+ 
 }
 
 .heading {
