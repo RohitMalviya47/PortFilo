@@ -13,10 +13,12 @@
 :root {
   --bg-color: #1f242d;
   --second-bg-color: #323946;
-  --main-color: #ffc800;
+  --main-color: #00ff44;
   --white-color: #fff;
   --disabled--color: #fff3;
 }
+/* #0cdf75 */
+/* #00ff44 */
 
 html {
   font-size: 62.5%;
@@ -245,6 +247,7 @@ section.active {
   background: var(--main-color);
   color: var(--bg-color);
   box-shadow: 0 0 1rem var(--main-color);
+  font-weight: bold;
 }
 
 .home-img .img-box {
@@ -269,7 +272,7 @@ section.active {
     transparent,
     transparent,
     transparent,
-   #ffc800
+   #018f29
   );
   transform: rotate(0deg);
   animation: rotate-border 5s linear infinite;
